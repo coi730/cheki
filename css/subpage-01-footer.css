@@ -1,0 +1,108 @@
+
+.footer-box {
+    width: 270px;
+    height: 100px;
+    background-color: #235243;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+footer {
+    width: 1920px;
+}
+footer .footer-container-1 {
+    height: 400px;
+    background-image: url('./footer.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+footer .footer-container-1 .footer-inquiry {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-2-box {
+    display: flex;
+    align-items: center;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-2-box img {
+    width: 50px;
+    height: 50px;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-2  p:first-child {
+    font-size: 25px;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-2-box  p:nth-child(2) {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-3 {
+    display: flex;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-3  .footer-inq-box1 {
+    margin-right: 20px;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-3  .footer-inq-box1 img {
+    width: 32px;
+    margin-right: 20px;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-3  .footer-inq-box2 {
+    background-color: #7B7B7B;
+}
+footer .footer-container-1 .footer-inquiry .footer-inq-3  .footer-inq-box2 img {
+    width: 32px;
+    margin-right: 20px;
+}
+footer .footer-container-2 {
+    height: 200px;
+    background-color: #3F4041;
+    display: flex;
+    padding: 0 100px 0 100px;
+    position: relative;
+}
+footer .footer-container-2 .logo {
+    width: 80px;
+    height: 150px;
+    margin-right: 50px;
+}
+footer .footer-container-2 .text-box {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer .footer-container-2 .text-box .text-box-1  .text-list {
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+footer .footer-container-2 .text-box .text-box-1  .text-list li {
+    margin-right: 20px;
+}
+footer .footer-container-2 .text-box .text-box-2 {
+    font-size: 20px;
+    color: #6C6C6A;
+}
+footer .footer-container-2 .more-box {
+    height: 80px;
+    background-color: #494949;
+    position: absolute;
+    right: 100px;
+}
+footer .footer-container-2 .more-box img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
